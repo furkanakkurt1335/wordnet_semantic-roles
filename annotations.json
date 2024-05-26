@@ -1,0 +1,39 @@
+{
+    "oewn-love__2.37.00..": {
+        "frames": {
+            "Somebody ----s somebody": {
+                "subject": "experiencer",
+                "object": "theme"
+            },
+            "Somebody ----s something": {
+                "subject": "experiencer"
+            }
+        }
+    },
+    "oewn-feel__2.37.00..": {
+        "frames": {
+          "Somebody ----s PP": {
+            "subject": "experiencer"
+          },
+          "Something ----s Adjective/Noun": {
+            "subject": "experiencer"
+          },
+          "Somebody ----s something": {
+            "subject": "experiencer"
+          },
+          "Something ----s something Adjective/Noun": {
+            "subject": "experiencer"
+          }
+        }
+    },
+    "oewn-hit__2.35.03..": {
+        "frames": {
+          "Somebody ----s": {
+            "subject": "agent"
+          },
+          "Somebody ----s something": {
+            "subject": "agent"
+          }
+        }
+    }
+}

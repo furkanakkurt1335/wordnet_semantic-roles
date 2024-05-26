@@ -27,7 +27,8 @@ def main():
                 d['senses'][sense_id] = {'synset': {'id': synset_id, 'senses': synset_senses}, 'frames': frame_d, 'type': type_t, 'examples': examples, 'definition': definition}
             verb_d[word.id] = d
 
-    verb_file = Path('verbs.json')
+    script_dir = Path(__file__).parent
+    verb_file = script_dir / 'verbs.json'
     with verb_file.open('w') as f:
         json.dump(verb_d, f, indent=2)
 
